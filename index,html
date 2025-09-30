@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk ZAZA, Gadis Istimewaku ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <section id="page-opening" class="page active">
+            <h1>Hai Zaza! Selamat Girlfriend Day!</h1>
+            <p>Ada satu pertanyaan penting yang harus kamu jawab...</p>
+
+            <div class="question-box">
+                <h2>Do you love me?</h2>
+                <div class="buttons">
+                    <button id="yesBtn">YA! (Tentu saja)</button>
+                    <button id="noBtn">TIDAK (Never!)</button>
+                </div>
+            </div>
+
+            <div id="resultMessage" class="hidden">
+                </div>
+        </section>
+
+
+        <section id="page-history" class="page hidden">
+            <h2>Petualangan Kita: Sejarah Game Bersama! 🎮</h2>
+            <p>Dari semua momen, momen saat kita main **Roblox** dan **Genshin Impact** adalah yang paling seru!</p>
+
+            <div class="history-grid">
+                
+                <div class="history-item">
+                    <h3>Memori Roblox 🚀</h3>
+                    <div class="image-placeholder">
+                        <p>FOTO MEMORI ROBLOX DI SINI</p>
+                    </div>
+                    <p>Momen lucu/seru saat kita main Roblox (entah itu obby bareng atau malah jailbreak!).</p>
+                </div>
+                
+                <div class="history-item">
+                    <h3>Memori Genshin Impact ✨</h3>
+                    <div class="image-placeholder">
+                        <p>FOTO MEMORI GENSHIN DI SINI</p>
+                    </div>
+                    <p>Dari farming, lawan boss, sampai eksplorasi Teyvat! Co-op bareng kamu selalu yang terbaik.</p>
+                </div>
+                
+            </div>
+            
+            <button class="next-btn" onclick="showPage('page-closing')">Lanjut ke Pesan Terakhir! ➡️</button>
+        </section>
+
+
+        <section id="page-closing" class="page hidden">
+            <h2>Pesan Spesial Untuk Gadis Terbaikku Zaza ❤️</h2>
+            
+            <div class="closing-box">
+                <p>Zaza,</p>
+                <p>Terima kasih sudah menjadi bagian terpenting dalam hidupku. Setiap momen, dari yang sederhana di chat sampai yang epic di Roblox dan Genshin Impact, semuanya berharga.</p>
+                <p>Kamu bukan cuma pacar, tapi teman main, support system, dan alasan aku senyum setiap hari. Aku sayang banget sama kamu, **Zaza!**</p>
+                <p>Semoga kita bisa menciptakan lebih banyak sejarah, di game maupun di kehidupan nyata.</p>
+            </div>
+            
+            <p style="margin-top: 40px; font-weight: bold; font-size: 1.3em;">
+                Selamat Girlfriend Day! Dari hatiku yang paling dalam!
+            </p>
+            <p style="font-size: 0.9em;">
+                — Dari [Nama Kamu] yang mencintaimu.
+            </p>
+        </section>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
